@@ -35,8 +35,7 @@
 }
 
 .description-column {
-    width: 70%;
-    margin-left: 2rem;
+    padding: 2rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -50,14 +49,24 @@
     padding-top: 5rem;
 }
 
+.container-padding {
+    padding-top: 5rem;
+}
+
+.mobile-padding {
+    padding: 2rem;
+}
+
 @media screen and (min-width: 768px) {
     .initial-padding {
         padding-top: 10rem;
     }
+
+    .container-padding {
+        padding-top: 7rem;
+    }
 }
-.container-padding {
-    padding-top: 10rem;
-}
+
 
 .contact {
     font-family: Lato;
@@ -106,8 +115,6 @@
     }
 }
 
-
-
 .title {
     font-family: Lato;
     text-transform: uppercase;
@@ -130,8 +137,7 @@
     font-size: 1.2rem;
     font-family: Lato;
     font-weight: 300;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding: 2rem;
 }
 
 .subject {
@@ -147,7 +153,7 @@ ul, li {
 
 ul li {
     font-family: Lato;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 300;
     color: #36363c;
     line-height: 1.75rem;
@@ -155,13 +161,37 @@ ul li {
 
 .column {
     width: 50%;
-    padding-left: 1rem;
+    padding-left: 1.6rem;
     padding-right: 1rem;
+}
+
+
+@media screen and (min-width: 380px) and (max-width: 440px) {
+    .column {
+        width: 50%;
+        padding-left: 3rem;
+        padding-right: 1rem;
+    }
+}
+
+@media screen and (min-width: 440px) and (max-width: 576px) {
+    .column {
+        padding-left: 5rem;
+        padding-right: 1rem;
+    }
 }
 
 @media screen and (min-width: 576px) and (max-width: 1000px) {
     .column {
         width: 50%;
+    }
+    
+    .mobile-padding {
+        padding-top: 0px;
+    }
+
+    .about-text {
+        padding-top: 0px;
     }
 }
 
@@ -169,4 +199,13 @@ ul li {
     .column {
         width: 25%;
     }
+
+    .mobile-padding {
+        padding-top: 0px;
+    }
+
+    .about-text {
+        padding-top: 0px;
+    }
 }
+
