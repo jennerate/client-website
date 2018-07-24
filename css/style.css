@@ -159,7 +159,7 @@ ul, li {
 }
 
 ul li {
-    font-family: Lato;
+    font-family: Inconsolata;
     font-size: 1.2rem;
     font-weight: 300;
     color: #36363c;
@@ -170,6 +170,37 @@ ul li {
     width: 50%;
     padding-left: 1.6rem;
     padding-right: 1rem;
+}
+
+.company-name {
+    font-family: Lato;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.dates {
+    font-family: Inconsolata;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.job-title {
+    font-family: Lato;
+    font-size: 1.1rem;
+    font-weight: 400;
+    display: block;
+}
+
+.job {
+    padding-left: 2.6rem;
+    padding-top: 2.6rem;
+    padding-right: 3.9rem;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.job p {
+    margin-bottom: 0;
 }
 
 
@@ -206,7 +237,16 @@ ul li {
 
     .about-text {
         padding-top: 0px;
+        font-size: 1.1rem;
+    }
+
+
+    ul li {
+        font-family: Lato;
         font-size: 1rem;
+        font-weight: 300;
+        color: #36363c;
+        line-height: 1.75rem;
     }
 
     .bolded-text {
@@ -217,6 +257,28 @@ ul li {
     
     .title {
         text-align: right;
+    }
+
+    .job {
+        padding-left: 2.6rem;
+        padding-top: 0;
+        display: inline-block;
+    }
+
+    .company-name {
+        float: left;
+    }
+
+    .dates {
+        float: right;
+    }
+    
+    .job-title {
+        font-family: Lato;
+        font-size: 1.1rem;
+        font-weight: 400;
+        display: block;
+        margin-top: 1.7rem;
     }
 }
 
@@ -231,7 +293,7 @@ ul li {
 
     .about-text {
         padding-top: 0px;
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 
     .bolded-text {
@@ -245,7 +307,7 @@ ul li {
     }
 
     ul li {
-        font-family: Lato;
+        font-family: Inconsolata;
         font-size: 1rem;
         font-weight: 300;
         color: #36363c;
@@ -259,6 +321,32 @@ ul li {
         color: black;
         font-weight: 700;
     }
+
+    .job {
+        padding-left: 2.6rem;
+        padding-top: 0;
+    }
+
+    .job {
+        padding-left: 2.6rem;
+        padding-top: 0;
+        display: inline-block;
+    }
+
+    .company-name {
+        float: left;
+    }
+
+    .dates {
+        float: right;
+    }
     
+    .job-title {
+        font-family: Lato;
+        font-size: 1.1rem;
+        font-weight: 300;
+        display: block;
+        margin-top: 1.7rem;
+    }
 }
 
