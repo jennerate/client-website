@@ -130,7 +130,7 @@
 .title-skills {
     font-family: Lato;
     text-transform: uppercase;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: black;
     font-weight: 700;
 }
@@ -207,7 +207,7 @@ ul li {
 .project {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-bottom: 2.6rem;
 }
 .project-title {
     font-family: Inconsolata;
@@ -248,6 +248,40 @@ a:active {
     color: blue;
 }
 
+.links-row i {
+    width: 33%;
+    display: block;
+    margin: auto;
+}
+
+.links {
+    font-family: Inconsolata;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    display: none;
+}
+
+.three-columns img {
+    width: 25%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.three-columns {
+    width: 30%;
+}
+
+.footer {
+    padding-bottom: 4rem;
+}
+
+.first-img {
+    margin-left: 1rem;
+} 
+
 @media screen and (min-width: 380px) and (max-width: 440px) {
     .column {
         width: 50%;
@@ -261,12 +295,26 @@ a:active {
         padding-left: 3.5rem;
         padding-right: 1rem;
     }
+
+    .three-columns img {
+        width: 20%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
 }
 
 @media screen and (min-width: 520px) and (max-width: 576px) {
     .column {
         padding-left: 4rem;
         padding-right: 1rem;
+    }
+
+    .three-columns img {
+        width: 17%;
+        height: auto;
+        display: block;
+        margin: auto;
     }
 }
 
@@ -304,7 +352,7 @@ a:active {
     }
 
     .job {
-        padding-left: 2.6rem;
+        padding-left: 3.6rem;
         padding-top: 0;
         margin-bottom: 2rem;
     }
@@ -315,6 +363,26 @@ a:active {
         font-weight: 300;
         display: block;
     }
+
+    .project {
+        padding-left: 1rem;
+        padding-right: 1.5rem;
+        padding-bottom: 2.6rem;
+    }
+
+    .three-columns img {
+        display: none;
+    }
+
+    .links {
+        font-family: Inconsolata;
+        text-align: center;
+        font-weight: 700;
+        font-size: 1.2rem;
+        margin-right: 1rem;
+        display: block;
+    }
+
 }
 
 @media screen and (min-width: 1000px) {
@@ -383,6 +451,27 @@ a:active {
         font-weight: 300;
         display: block;
         margin-top: 1.7rem;
+    }
+
+    .job-title {
+        font-family: Lato;
+        font-size: 1.1rem;
+        font-weight: 300;
+        display: block;
+    }
+
+    .project {
+        padding-left: 1rem;
+        padding-right: 1.5rem;
+        padding-bottom: 2.6rem;
+    }
+
+    .links {
+        font-family: Inconsolata;
+        text-align: center;
+        font-weight: 700;
+        font-size: 1.2rem;
+        margin-right: 1rem;
     }
 }
 

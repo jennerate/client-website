@@ -8,6 +8,8 @@
         <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">        
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+
         <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
@@ -15,7 +17,7 @@
             <div class="row">
                 <div class="description-column">
                     <h1>Hi, I'm Stephen <span class="toggle-wave">👋</span></h1>
-                    <p class="desc-text">I'm a software engineer studying computer science at UBC.  I am passionate about learning software related topics and making my ideas come to life. </p>
+                    <p class="desc-text">I'm a software engineer intern at Amazon studying computer science at UBC.  I am passionate about learning software related topics and making my ideas come to life. </p>
                     <p class="contact">Let's get in touch! 👉 Click <span onClick="toggleEmail()" class="email-span-styling">here</span>.</p>
                     <p id="email">hey@stephenvanson.me</p>
                 </div>
@@ -68,7 +70,7 @@
                         <div class="job">
                             <p class="company-name">Enersight</p>
                             <p class="dates">July 2014 - August 2014</p>
-                            <p class="job-title">Summer Student Developer</p>
+                            <p class="job-title-last">Summer Student Developer</p>
                         </div>
                     </div>
                 </div>
@@ -79,7 +81,7 @@
                 <div class="col-sm-4">
                     <h1 class="title">Projects</h1>
                 </div>
-                <div class="col-sm-8">
+                <div class="col-sm-8 mobile-padding">
                     <div>
                         <div class="project">
                             <a href="https://github.com/AliHaghani/ViralPoll" target="_blank"><p class="project-title">ViralPoll 👉</p></a>
@@ -145,7 +147,28 @@
                 </div>
             </div>
         </div>
-        <div class="container container-padding" data-aos="fade-down"></div>
+        <div class="container container-padding footer">
+            <div class="row">
+                <div class="three-columns first-img">                    
+                    <img src="assets/github-icon.png"><a href="https://github.com/stephenvanson" target="_blank"></a></img>
+                </div>
+                <div class="three-columns">                    
+                    <img src="assets/email-icon.svg"> 
+                        <a href="mailto:hey@stephenvanson.me"></a>
+                    </img>
+                </div>
+                <div class="three-columns">
+                    <img src="assets/linkedin-icon.png">
+                        <a href="https://www.linkedin.com/in/vansonstephen/"  target="_blank"></a>
+                    </img>
+                </div>
+            </div>
+            <div class="row links-row">
+                <p class="links"><a href="https://github.com/stephenvanson" target="_blank">GitHub</a></p>
+                <p class="links"><a href="https://www.linkedin.com/in/vansonstephen/"  target="_blank">LinkedIn</a></p>
+                <p class="links"><a href="mailto:hey@stephenvanson.me">Email</a></p>
+            </div>
+        </div>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="js/script.js"></script>
     </body>
